@@ -1016,7 +1016,7 @@ translation=Tất cả
 
 [setting.hotkeys.label-show-conflicts]
 original=Conflicts
-translation=Xung đột ({{count}})
+translation=Xung đột
 
 [setting.hotkeys.label-show-unassigned]
 original=Unassigned
@@ -7184,7 +7184,7 @@ translation=Vui lòng nhập tên cho cấu trúc khung làm việc mới.
 
 [plugins.workspaces.msg-save-layout-success]
 original=Successfully saved layout “{{name}}”
-translation=Lưu cấu trúc khung làm việc thành công.
+translation=Đã lưu bố cục “{{name}}” thành công
 
 [plugins.workspaces.label-no-layout-found]
 original=No saved layout found.
@@ -7260,7 +7260,7 @@ translation=Đã xóa qua {{ device }}
 
 [plugins.sync.label-file-renamed-from]
 original=Renamed from “{{from}}”
-translation=This file was renamed from "{{filepath}}"
+translation=Đã đổi tên từ “{{from}}”
 
 [plugins.sync.label-file-renamed-from-to]
 original=Renamed from “{{from}}” to “{{to}}”
@@ -7276,11 +7276,11 @@ translation=Đã di chuyển từ “{{from}}” đến “{{to}}”
 
 [plugins.sync.label-revision]
 original={{count}} revision
-translation=1 revision
+translation={{count}} phiên bản
 
 [plugins.sync.label-revision_plural]
 original={{count}} revisions
-translation={{revisions}} revisions
+translation={{count}} phiên bản
 
 [plugins.sync.label-via-device]
 original=via {{device}}
@@ -7444,7 +7444,7 @@ translation=Xác nhận xóa hòm lưu trữ
 
 [plugins.sync.label-confirm-delete-remote-vault-question]
 original=Are you sure you want to delete the remote vault "{{name}}"?
-translation=Bạn có chắc chắn muốn xóa hòm lưu trữ từ xa này không?
+translation=Bạn có chắc chắn muốn xóa kho lưu trữ từ xa “{{name}}” không?
 
 [plugins.sync.label-confirm-delete-remote-vault-result]
 original=All data on our server, including version history, will be deleted. Your local files will stay intact.
@@ -9092,7 +9092,7 @@ translation=Cơ sở mới
 
 [plugins.bases.action-add-property]
 original=Add "{{name}}" property
-translation=Add property
+translation=Thêm thuộc tính “{{name}}”
 
 [plugins.bases.action-add-summary]
 original=Add "{{name}}" summary
@@ -9476,7 +9476,7 @@ translation=Cấu hình thuộc tính không hợp lệ cho "{{ name }}".
 
 [plugins.bases.msg-error-register-view]
 original=Unable to add new Bases view "{{ viewId }}". A view with this ID already exists.
-translation=Unable to add new Bases view "{{ viewID }}". A view with this ID already exists.
+translation=Không thể thêm chế độ xem Bases mới “{{ viewId }}”. Một chế độ xem có ID này đã tồn tại.
 
 [plugins.bases.msg-error-unable-to-parse]
 original=Unable to parse your base file:
